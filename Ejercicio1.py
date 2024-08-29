@@ -35,7 +35,7 @@ class Fecha:
             print(paciente)
 
 
-doctorl = input("Bienvenido, ingrese el nombre del doctor: ")
+doctorl = input("Bienvenido, ingrese el nombre del doctor programado: ")
 fechl = Fecha(doctorl)
 
 while True:
