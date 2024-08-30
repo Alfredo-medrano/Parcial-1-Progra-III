@@ -1,0 +1,64 @@
+Soluciones en Python para Gestión de Consultas Médicas, Préstamo de Libros, Tienda y Zoológico
+
+=====================================
+Este documento reúne diversas soluciones programadas en Python 
+que abordan la gestión de consultas médicas, préstamos de libros, administración de una tienda y el cuidado de animales en un zoológico. 
+En todas las soluciones, utilizamos la Programación Orientada a Objetos (POO) para una organización clara y eficiente del código. 
+También implementamos manejo de excepciones para mejorar la robustez y la experiencia del usuario.
+===================================
+Solución 1: Gestión de Consultas Médicas
+Clases y Objetos:
+
+Paciente: Representa a cada paciente con atributos como nombre, motivo de consulta, fecha y doctor asignado. 
+Esto facilita el manejo de la información de manera organizada.
+Fecha: Administra las consultas, verifica duplicados y muestra el registro completo. 
+Se asegura de no registrar dos veces la misma consulta para un paciente.
+
+Manejo de Excepciones:
+El código verifica situaciones como intentos de duplicar una consulta, 
+y proporciona mensajes claros al usuario para corregir entradas erróneas, evitando que el programa se detenga abruptamente.
+--------------------------------------------------
+Solución 2: Gestión de Préstamos de Libros
+Clases y Objetos:
+
+Libro: Define atributos de los libros, como el título y su estado (prestado o no).
+Tarjeta: Representa a los usuarios de la biblioteca y gestiona los libros prestados, las fechas de devolución 
+y posibles sanciones por retrasos.
+
+Manejo de Excepciones:
+Se verifica si el libro ya está prestado o si el libro no fue prestado a través de la 
+tarjeta correspondiente, evitando errores comunes y mejorando la usabilidad.
+__________________________________________________________________
+Solución 3: Gestión de una Tienda
+Clases y Objetos:
+
+Producto: Almacena detalles del producto, como nombre, precio y cantidad.
+Tienda: Controla el inventario, las ventas, 
+y las interacciones con proveedores, agrupando funciones y datos de manera lógica y modular.
+
+Manejo de Excepciones:
+Se incorporan excepciones para gestionar entradas inválidas
+o errores de tipo, lo que ayuda a evitar que el programa se detenga inesperadamente 
+y mejora la experiencia del usuario.
+__________________________________________________________________
+Solución 4: Gestión de un Zoológico
+Clases y Objetos:
+
+Animal: Contiene información detallada de cada animal y gestiona los 
+tratamientos médicos que necesitan.
+
+Zoológico: Administra los animales, proporciona informes sobre t
+ratamientos y emite alertas para el cuidado de los mismos.
+
+Manejo de Excepciones:
+Excepciones para entradas incorrectas o faltantes, 
+lo que asegura que el programa continúe funcionando de 
+manera segura y proporciona retroalimentación al usuario.
+
+--------------------------------------------------------------------
+Justificación
+En todas las soluciones, se optó por usar POO debido 
+a su capacidad de representar entidades del mundo real de
+manera intuitiva y estructurada.
+Además, el manejo de excepciones asegura que los programas sean
+robustos y manejan errores de manera efectiva, mejorando significativamente la experiencia del usuario.
